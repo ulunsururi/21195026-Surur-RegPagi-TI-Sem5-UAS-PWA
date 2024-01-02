@@ -1,0 +1,51 @@
+.fab {
+    padding: 0.1em 0.3em;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+.no-marg-bot {
+    margin-bottom: 0;
+}
+
+#socmed {
+    display: flex;
+    justify-content: center;
+}
+
+#socmed a {
+    text-decoration: none;
+}
+
+.biodata {
+    text-decoration: underline;
+    font-weight: 420 !important;
+}
+/*sticky footer */
+
+body {
+    display: flex;
+    min-height: 100vh !important;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* biodata height */
+@media only screen and (min-width: 990px) {
+    .profile-info {
+        height: 160px;
+    }
+}
